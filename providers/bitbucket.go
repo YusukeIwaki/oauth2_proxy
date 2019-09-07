@@ -1,13 +1,14 @@
 package providers
 
 import (
+	"fmt"
 	"net/http"
 	"net/url"
 	"strings"
 
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
-	"github.com/pusher/oauth2_proxy/pkg/logger"
-	"github.com/pusher/oauth2_proxy/pkg/requests"
+	"github.com/YusukeIwaki/oauth2_proxy/pkg/apis/sessions"
+	"github.com/YusukeIwaki/oauth2_proxy/pkg/logger"
+	"github.com/YusukeIwaki/oauth2_proxy/pkg/requests"
 )
 
 // BitbucketProvider represents an Bitbucket based Identity Provider

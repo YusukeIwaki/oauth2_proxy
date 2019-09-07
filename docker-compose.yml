@@ -1,0 +1,9 @@
+version: "3"
+services:
+  go:
+    build:
+      dockerfile: Dockerfile.develop
+      context: .
+    volumes:
+      - .:/go/src/github.com/YusukeIwaki/oauth2_proxy
+    working_dir: /go/src/github.com/YusukeIwaki/oauth2_proxy
